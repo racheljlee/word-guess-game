@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Pokemon de Panepon AL';
+    src: url('../fonts/pokemon_de_panepon_AL.ttf');
+}
+
+@font-face {
+    font-family: 'Pokemon Card GB Part A';
+    src: url('../fonts/pokemon_card_GB_part_A.ttf');
+}
+
+body {
+    font-family: 'Pokemon Card GB Part A', sans-serif;
+}
+
+h2 {
+    font-family: 'Pokemon de Panepon AL', sans-serif;
+    text-transform: uppercase;
+}
+
+/* PRESS START ANIMATION*/
+.pressstart {
+   animation: blinker 1s linear infinite;
+   margin-top: 50px;
+}
+@keyframes blinker {
+    20% { opacity: 0;}
+}
+
+
+/* STATS */
+.stats { 
+    width: 600px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: double;
+    padding: 20px;
+    text-align: left;
+}
+.upper-case {
+    text-transform: uppercase;
+}

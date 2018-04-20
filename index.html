@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess Game</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row" id="intropage">
+            <div class="col-md-12 text-center">
+                <img src="./assets/images/pokemongb.gif">
+                <h2 id="pressstart" class="pressstart">Press space to start</h2>
+            </div>
+        </div>
+
+        <div class="row" class="game-page" id="gamepage">
+            <div class="col-md-12 text-center">
+                <div class="word-play" id="wordplay">
+                    <span id="messageguess"></span><br><br>
+                    <span id="newword"></span><br><br>
+                    <span id="error"></span><br><br><br>
+                </div>
+
+                <div class="stats" id="stats">
+                    <span class="upper-case">Used: </span><span id="used"></span><br><br>
+                    <span class="upper-case">Lives Left: </span><span id="lives"></span><br><br>
+                    <span class="upper-case">Wins: </span><span id="wins"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</html>
